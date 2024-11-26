@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudip Paudel - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap');
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f258a 0%, #764ba2 100%);
+        }
+        .section-bg {
+            background-color: rgba(255,255,255,0.05);
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 selection:bg-purple-500">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <!-- Header -->
+        <header class="text-center py-1 gradient-bg rounded-b-xl">
+            <img src="cv.jpg" alt="Sudip Paudel" class="mx-auto mb-6 w-56 h-56 rounded-full border-6 border-white shadow-lg">
+            <h1 class="text-4xl font-bold mb-4 text-white">Sudip Paudel</h1>
+            <p class="text-xl text-black-80 px-4">Driven by Technology, Passionate Web developer and BCA student, transforming ideas into innovative digital solutions.</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="my-8 flex justify-center flex-wrap gap-4">
+            <a href="#profile" class="px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Profile</a>
+            <a href="#education" class="px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Education</a>
+            <a href="#skills" class="px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Skills</a>
+            <a href="#resume" class="px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Resume</a>
+            <a href="#contact" class="px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition">Contact</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="space-y-12">
+            <!-- Profile Section -->
+             <!-- Profile Section -->
+        <section id="profile" class="section-bg p-8 rounded-3xl hover-scale my-8">
+            <h2 class="text-3xl font-bold mb-4 text-purple-400">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-2xl font-semibold text-green-400 mb-4">Core Interests</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-code text-purple-400 mr-3"></i>
+                            <span>Web Development</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-youtube text-red-500 mr-3"></i>
+                            <span>YouTube Content Creation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-network-wired text-cyan-400 mr-3"></i>
+                            <span>Networking</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-chart-line text-green-400 mr-3"></i>
+                            <span>Data Analysis and Report Generation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-gray-300">Passionate technology explorer bridging creativity and code. I transform ideas into digital experiences, crafting innovative web solutions and engaging content that tells a story.</p>
+                    <div class="flex space-x-4 mt-6">
+                        <div class="bg-purple-700 px-4 py-2 rounded-full text-white">Problem Solver</div>
+                        <div class="bg-purple-700 px-4 py-2 rounded-full text-white">Innovator</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section-bg p-8 rounded-3xl hover-scale">
+                <h2 class="text-3xl font-bold mb-4 text-purple-400">Education</h2>
+                <ul class="space-y-4">
+                    <li class="bg-gray-800 p-4 rounded-xl">
+                        <strong class="text-green-400">2006 - 2018:</strong> Shree Bhoomeshwor Secondary School (Basic Level)
+                    </li>
+                    <li class="bg-gray-800 p-4 rounded-xl">
+                        <strong class="text-green-400">2018 - 2020:</strong> Padmodaya Higher Secondary School (NEB)
+                    </li>
+                    <li class="bg-gray-800 p-4 rounded-xl">
+                        <strong class="text-green-400">2020 - 2025:</strong> Bachelor's in Computer Application
+                        Tribhuvan University | Ratna Rajyalaxmi Campus 
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section-bg p-8 rounded-3xl hover-scale">
+                <h2 class="text-3xl font-bold mb-4 text-purple-400">Skills</h2>
+                <div class="flex flex-wrap gap-4">
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Project Management</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Java</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">C#</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Python</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Laravel</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">DBMS</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Time Management</span>
+                    <span class="px-4 py-2 bg-purple-700 text-white rounded-full">Data Analysis</span>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section-bg p-8 rounded-3xl text-center hover-scale">
+                <h2 class="text-3xl font-bold mb-4 text-purple-400">Resume</h2>
+                <p class="text-gray-300 mb-6">Download my latest resume to learn more about my professional journey.</p>
+                <a href="Sudip.pdf" download class="inline-block px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">
+                    <i class="fas fa-download mr-2"></i>Download Resume
+                </a>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section-bg p-8 rounded-3xl hover-scale">
+                <h2 class="text-3xl font-bold mb-4 text-purple-400">Contact</h2>
+                <div class="space-y-4">
+                    <p><i class="fas fa-phone mr-2 text-purple-400"></i>9840648136</p>
+                    <p><i class="fas fa-envelope mr-2 text-purple-400"></i><a href="mailto:sp670341@gmail.com" class="hover:text-purple-300">sp670341@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt mr-2 text-purple-400"></i>Santinagar, Kathmandu</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 mt-12">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href=
+                "https://www.linkedin.com/in/sudip-paudel-3ba508268/ "target="_blank" class="text-2xl text-purple-400 hover:text-purple-300">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sudippaudel-git" target="_blank" class="text-2xl text-purple-400 hover:text-purple-300">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/sudip.poudel.1029" target="_blank" class="text-2xl text-purple-400 hover:text-purple-300">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/@1010Sudip" target="_blank" class="text-2xl text-purple-400 hover:text-purple-300">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <p class="text-gray-500">&copy; 2024 Sudip Paudel. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
